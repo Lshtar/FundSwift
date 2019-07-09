@@ -4,10 +4,14 @@
 target 'FundSwift' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
+ 
+  pod 'MBProgressHUD'
   
   pod 'AFNetworking'
   pod 'SnapKit'
   pod 'SwiftyJSON'
+  pod 'Kingfisher'
+  pod 'Moya'
   # Pods for FundSwift
 
   target 'FundSwiftTests' do

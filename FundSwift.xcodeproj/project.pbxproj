@@ -18,12 +18,28 @@
 		CC143BEB22AE326C000BD2E3 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC143BEA22AE326C000BD2E3 /* ProductViewController.swift */; };
 		CC143BED22AE46CD000BD2E3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC143BEC22AE46CD000BD2E3 /* MainTabBarViewController.swift */; };
 		CC143BF122AE5172000BD2E3 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC143BF022AE5172000BD2E3 /* Banner.swift */; };
+		CC1C75DE22D4609000582023 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1C75DD22D4609000582023 /* NetworkTools.swift */; };
+		CC1C75E122D4626900582023 /* DStrInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1C75E022D4626900582023 /* DStrInt.swift */; };
+		CC1C75E322D4628C00582023 /* DSaveFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1C75E222D4628C00582023 /* DSaveFiles.swift */; };
+		CC1C75E522D4629E00582023 /* DHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1C75E422D4629E00582023 /* DHUD.swift */; };
+		CC1C75E722D463FC00582023 /* ChainRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1C75E622D463FC00582023 /* ChainRequest.swift */; };
+		CC1C75E922D4645900582023 /* MoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1C75E822D4645900582023 /* MoyaConfig.swift */; };
+		CC1C75EB22D4647E00582023 /* MoyaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1C75EA22D4647E00582023 /* MoyaRequest.swift */; };
+		CC1C75ED22D464B200582023 /* MoyaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1C75EC22D464B200582023 /* MoyaAPI.swift */; };
+		CC1C75EF22D464D200582023 /* DModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1C75EE22D464D200582023 /* DModel.swift */; };
+		CC1C75F122D466EA00582023 /* DCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1C75F022D466EA00582023 /* DCell.swift */; };
+		CC1E95A722CD93CF00EE2AE9 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E95A622CD93CF00EE2AE9 /* CustomNavigationBar.swift */; };
+		CC1E95A922CD93E900EE2AE9 /* NavigtionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E95A822CD93E900EE2AE9 /* NavigtionBar.swift */; };
+		CC1E95B522CDA88100EE2AE9 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E95B422CDA88100EE2AE9 /* UIColor+RGB.swift */; };
 		CC4198AD22C45F6700CC20FA /* RoutineMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4198AC22C45F6700CC20FA /* RoutineMacros.swift */; };
 		CC6CD68B22AE2356005DB6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6CD68922AE2356005DB6D9 /* Main.storyboard */; };
 		CC6CD68D22AE2357005DB6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6CD68C22AE2357005DB6D9 /* Assets.xcassets */; };
 		CC6CD69022AE2357005DB6D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6CD68E22AE2357005DB6D9 /* LaunchScreen.storyboard */; };
 		CC6CD69B22AE2357005DB6D9 /* FundSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CD69A22AE2357005DB6D9 /* FundSwiftTests.swift */; };
 		CC6CD6A622AE2357005DB6D9 /* FundSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CD6A522AE2357005DB6D9 /* FundSwiftUITests.swift */; };
+		CCB3B55322CC595B004D454B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB3B55022CC595B004D454B /* 2.jpg */; };
+		CCB3B55422CC595B004D454B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB3B55122CC595B004D454B /* 3.jpg */; };
+		CCB3B55522CC595B004D454B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB3B55222CC595B004D454B /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +75,19 @@
 		CC143BEA22AE326C000BD2E3 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		CC143BEC22AE46CD000BD2E3 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		CC143BF022AE5172000BD2E3 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		CC1C75DD22D4609000582023 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		CC1C75E022D4626900582023 /* DStrInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DStrInt.swift; sourceTree = "<group>"; };
+		CC1C75E222D4628C00582023 /* DSaveFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSaveFiles.swift; sourceTree = "<group>"; };
+		CC1C75E422D4629E00582023 /* DHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHUD.swift; sourceTree = "<group>"; };
+		CC1C75E622D463FC00582023 /* ChainRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainRequest.swift; sourceTree = "<group>"; };
+		CC1C75E822D4645900582023 /* MoyaConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaConfig.swift; sourceTree = "<group>"; };
+		CC1C75EA22D4647E00582023 /* MoyaRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaRequest.swift; sourceTree = "<group>"; };
+		CC1C75EC22D464B200582023 /* MoyaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaAPI.swift; sourceTree = "<group>"; };
+		CC1C75EE22D464D200582023 /* DModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DModel.swift; sourceTree = "<group>"; };
+		CC1C75F022D466EA00582023 /* DCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCell.swift; sourceTree = "<group>"; };
+		CC1E95A622CD93CF00EE2AE9 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		CC1E95A822CD93E900EE2AE9 /* NavigtionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigtionBar.swift; sourceTree = "<group>"; };
+		CC1E95B422CDA88100EE2AE9 /* UIColor+RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
 		CC4198AC22C45F6700CC20FA /* RoutineMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineMacros.swift; sourceTree = "<group>"; };
 		CC6CD68222AE2356005DB6D9 /* FundSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FundSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6CD68A22AE2356005DB6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +100,9 @@
 		CC6CD6A122AE2357005DB6D9 /* FundSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FundSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6CD6A522AE2357005DB6D9 /* FundSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundSwiftUITests.swift; sourceTree = "<group>"; };
 		CC6CD6A722AE2357005DB6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB3B55022CC595B004D454B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CCB3B55122CC595B004D454B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		CCB3B55222CC595B004D454B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		E55B457510EB6EA0F60FFF65 /* Pods-FundSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FundSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FundSwiftUITests/Pods-FundSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FBEE06263C9324744C8E7D0F /* Pods-FundSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FundSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FundSwift/Pods-FundSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,6 +235,7 @@
 		CC143BCF22AE2F62000BD2E3 /* Host */ = {
 			isa = PBXGroup;
 			children = (
+				CC1C75DA22D45F3A00582023 /* MoyaAPI */,
 			);
 			path = Host;
 			sourceTree = "<group>";
@@ -210,6 +243,9 @@
 		CC143BD022AE2F62000BD2E3 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				CC1C75DC22D4600A00582023 /* AFN */,
+				CC1C75DB22D4600A00582023 /* Chain */,
+				CC1C75D922D45F2F00582023 /* Moya */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -217,6 +253,7 @@
 		CC143BD122AE2F62000BD2E3 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				CC1C75EE22D464D200582023 /* DModel.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -241,6 +278,7 @@
 		CC143BD422AE2F62000BD2E3 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				CC1C75F022D466EA00582023 /* DCell.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -307,6 +345,7 @@
 		CC143BDD22AE2F63000BD2E3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				CCB3B54F22CC595B004D454B /* pic */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -314,6 +353,8 @@
 		CC143BDE22AE2F63000BD2E3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				CC1C75DF22D4623900582023 /* Tools */,
+				CC1E95B322CDA88100EE2AE9 /* UIColor+RGB */,
 				CC143BF322AE5A8C000BD2E3 /* Macros */,
 				CC143BEF22AE4D42000BD2E3 /* Banner */,
 			);
@@ -330,6 +371,8 @@
 		CC143BE122AE2F8C000BD2E3 /* NavBar */ = {
 			isa = PBXGroup;
 			children = (
+				CC1E95A822CD93E900EE2AE9 /* NavigtionBar.swift */,
+				CC1E95A622CD93CF00EE2AE9 /* CustomNavigationBar.swift */,
 			);
 			path = NavBar;
 			sourceTree = "<group>";
@@ -348,6 +391,57 @@
 				CC4198AC22C45F6700CC20FA /* RoutineMacros.swift */,
 			);
 			path = Macros;
+			sourceTree = "<group>";
+		};
+		CC1C75D922D45F2F00582023 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C75E822D4645900582023 /* MoyaConfig.swift */,
+				CC1C75EA22D4647E00582023 /* MoyaRequest.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		CC1C75DA22D45F3A00582023 /* MoyaAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C75EC22D464B200582023 /* MoyaAPI.swift */,
+			);
+			path = MoyaAPI;
+			sourceTree = "<group>";
+		};
+		CC1C75DB22D4600A00582023 /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C75E622D463FC00582023 /* ChainRequest.swift */,
+			);
+			path = Chain;
+			sourceTree = "<group>";
+		};
+		CC1C75DC22D4600A00582023 /* AFN */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C75DD22D4609000582023 /* NetworkTools.swift */,
+			);
+			path = AFN;
+			sourceTree = "<group>";
+		};
+		CC1C75DF22D4623900582023 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C75E022D4626900582023 /* DStrInt.swift */,
+				CC1C75E222D4628C00582023 /* DSaveFiles.swift */,
+				CC1C75E422D4629E00582023 /* DHUD.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CC1E95B322CDA88100EE2AE9 /* UIColor+RGB */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E95B422CDA88100EE2AE9 /* UIColor+RGB.swift */,
+			);
+			path = "UIColor+RGB";
 			sourceTree = "<group>";
 		};
 		CC6CD67922AE2356005DB6D9 = {
@@ -408,6 +502,16 @@
 				CC6CD6A722AE2357005DB6D9 /* Info.plist */,
 			);
 			path = FundSwiftUITests;
+			sourceTree = "<group>";
+		};
+		CCB3B54F22CC595B004D454B /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				CCB3B55022CC595B004D454B /* 2.jpg */,
+				CCB3B55122CC595B004D454B /* 3.jpg */,
+				CCB3B55222CC595B004D454B /* 1.jpg */,
+			);
+			path = pic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -518,8 +622,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB3B55422CC595B004D454B /* 3.jpg in Resources */,
 				CC6CD69022AE2357005DB6D9 /* LaunchScreen.storyboard in Resources */,
 				CC6CD68D22AE2357005DB6D9 /* Assets.xcassets in Resources */,
+				CCB3B55522CC595B004D454B /* 1.jpg in Resources */,
+				CCB3B55322CC595B004D454B /* 2.jpg in Resources */,
 				CC6CD68B22AE2356005DB6D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,12 +692,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FundSwift/Pods-FundSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -628,10 +745,23 @@
 				CC143BEB22AE326C000BD2E3 /* ProductViewController.swift in Sources */,
 				CC143BDF22AE2F63000BD2E3 /* AppDelegate.swift in Sources */,
 				CC143BE322AE3001000BD2E3 /* BaseViewController.swift in Sources */,
+				CC1C75E322D4628C00582023 /* DSaveFiles.swift in Sources */,
+				CC1E95A722CD93CF00EE2AE9 /* CustomNavigationBar.swift in Sources */,
 				CC143BED22AE46CD000BD2E3 /* MainTabBarViewController.swift in Sources */,
 				CC143BE522AE3231000BD2E3 /* HomeViewController.swift in Sources */,
+				CC1C75F122D466EA00582023 /* DCell.swift in Sources */,
+				CC1C75ED22D464B200582023 /* MoyaAPI.swift in Sources */,
+				CC1E95B522CDA88100EE2AE9 /* UIColor+RGB.swift in Sources */,
+				CC1C75EB22D4647E00582023 /* MoyaRequest.swift in Sources */,
+				CC1C75E922D4645900582023 /* MoyaConfig.swift in Sources */,
+				CC1E95A922CD93E900EE2AE9 /* NavigtionBar.swift in Sources */,
+				CC1C75E522D4629E00582023 /* DHUD.swift in Sources */,
 				CC143BF122AE5172000BD2E3 /* Banner.swift in Sources */,
+				CC1C75E122D4626900582023 /* DStrInt.swift in Sources */,
 				CC143BE722AE3245000BD2E3 /* MineViewController.swift in Sources */,
+				CC1C75EF22D464D200582023 /* DModel.swift in Sources */,
+				CC1C75E722D463FC00582023 /* ChainRequest.swift in Sources */,
+				CC1C75DE22D4609000582023 /* NetworkTools.swift in Sources */,
 				CC143BE922AE325A000BD2E3 /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -809,8 +939,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8858GLHKNB;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = FundSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -829,8 +961,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8858GLHKNB;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = FundSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
