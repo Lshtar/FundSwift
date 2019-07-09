@@ -32,6 +32,7 @@ class DCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         UISet()
+        self.selectionStyle = UITableViewCell.SelectionStyle.none
         self.contentView.addSubview(iconImageView)
         self.contentView.addSubview(nameLabel)
         self.contentView.addSubview(descLabel)

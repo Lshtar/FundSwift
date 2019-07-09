@@ -19,14 +19,14 @@ class HomeViewController: BaseViewController {
     
     lazy var segment: UISegmentedControl = {
         let tempView = UISegmentedControl(items: ["moya", "chain", "AFN式"])
-        tempView.frame = CGRect(x:0, y: 300, width: self.view.frame.width, height: 40)
+        tempView.frame = CGRect(x:0, y: 200, width: self.view.frame.width, height: 40)
         tempView.selectedSegmentIndex = 0
         tempView.addTarget(self, action: #selector(clickSegment), for: .valueChanged)
         return tempView
     }()
     
     lazy var tableView: UITableView = {
-        let table = UITableView(frame: CGRect(x:0, y: 340, width: self.view.frame.width, height: self.view.frame.height - 340), style: .plain)
+        let table = UITableView(frame: CGRect(x:0, y: 240, width: self.view.frame.width, height: self.view.frame.height - 240), style: .plain)
         table.rowHeight = UITableView.automaticDimension
         table.estimatedRowHeight = 120
         
@@ -41,7 +41,7 @@ class HomeViewController: BaseViewController {
 
         // Do any additional setup after loading the view.
 //        let array = NSMutableArray.init(array: ["1","2"])
-        let banner = Banner.init(frame: CGRect.init(x: 0, y: 0, width: Screen_Width, height: 300))
+        let banner = Banner.init(frame: CGRect.init(x: 0, y: 0, width: Screen_Width, height: 200))
         banner.backgroundColor = UIColor.cyan
         
         self.view.addSubview(banner)

@@ -25,7 +25,7 @@ class Banner: UIView,UIScrollViewDelegate {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        sv = UIScrollView.init(frame: CGRect(x: 0, y: 0, width: Screen_Width, height: 300))
+        sv = UIScrollView.init(frame: CGRect(x: 0, y: 0, width: Screen_Width, height: 200))
         sv.delegate = self
         sv.isPagingEnabled = true
         sv.showsVerticalScrollIndicator = false
@@ -36,17 +36,17 @@ class Banner: UIView,UIScrollViewDelegate {
         
         
         for i in 1...3 {
-            let image = UIImage(named: "pic\(i).jpg")
+            let image = UIImage(named: "\(i).jpg")
             let _x = CGFloat(i-1) * Screen_Width
             
-            var imageView = UIImageView.init(frame: CGRect(x: _x, y: 0, width: Screen_Width, height: 300))
+            let imageView = UIImageView.init(frame: CGRect(x: _x, y: 0, width: Screen_Width, height: 200))
             imageView.image = image
             
             sv.addSubview(imageView)
             
         }
         sv.contentSize = CGSize.init(width: Screen_Width * 3, height: sv.frame.height)
-        pc = UIPageControl.init(frame: CGRect(x: Screen_Width/4-50/2, y: Screen_Height/4-40, width: 50, height: 40))
+        pc = UIPageControl.init(frame: CGRect(x: (Screen_Width-50/2)/2, y: 160, width: 50, height: 40))
         addSubview(pc)
         pc.numberOfPages = 3
         pc.currentPageIndicatorTintColor = UIColor.red
